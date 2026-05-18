@@ -1,0 +1,6 @@
+inst360\services\CadastroService.class
+inst360\Main.class
+inst360\connection\ConnectionFactory.class
+inst360\dao\UsuarioDAO.class
+inst360\model\Usuario.class
+inst360\CadastroServlet.class

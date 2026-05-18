@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./css/cadastroUsuario.css">
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <form id="formCadastro" action="cadastro" method="post">
+        <h1>Cadastro de Usuário</h1>
+
+        <input type="text" name="nome" placeholder="Insira seu Nome" required>
+
+        <input type="text" name="matricula" placeholder="Insira sua Matricula" required>
+
+        <input type="text" name="endereco" placeholder="Insira seu Endereço">
+
+        <div id="dtNasc">
+        <label id="descDtNasc">Data de Nascimento:</label>
+        <input type="date" name="dataNasc">
+        </div>
+
+        <input type="email" name="email" placeholder="Insira seu Email">
+
+        <input type="password" name="senha" placeholder="Insira sua Senha" required>
+
+        <button type="submit">
+            Cadastrar
+        </button>
+
+        <div id="mensagem">
+            <p>Mensagem teste</p>
+        </div>
+
+    </form>
+
+    <script src="./js/cadastroUsuario.js"></script>
+</body>
+</html>
