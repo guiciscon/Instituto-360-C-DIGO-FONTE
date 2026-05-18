@@ -1,5 +1,0 @@
-inst360\Main.class
-inst360\connection\ConnectionFactory.class
-inst360\controller\CadastroServlet.class
-inst360\dao\UsuarioDAO.class
-inst360\model\Usuario.class
