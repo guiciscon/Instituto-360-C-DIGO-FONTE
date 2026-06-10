@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./css/loginUsuario.css">
+    <meta charset="UTF-8">
+    <title>INST360 - LOGIN</title>
+</head>
+<body>
+
+    <div id="navbar">
+        <img id="logo" src="logo.png" alt="">
+        <div id="conteiner-links">
+            <a class="nav-links" href="loginUsuario.html">Login</a>
+            <a class="nav-links" href="cadastroUsuario.html">Cadastro</a>
+        </div>
+    </div>
+
+    <form id="formLogin">
+        <h1>Login de Usuário</h1>
+
+        <input type="text" name="matricula" placeholder="Insira sua Matricula" required>
+
+        <input type="password" name="senha" placeholder="Insira sua Senha" required>
+
+        <button type="submit">
+            Entrar
+        </button>
+
+        <div id="mensagem">
+            <p></p>
+        </div>
+
+    </form>
+
+    <script src="./js/loginUsuario.js"></script>
+</body>
+</html>
